@@ -1,17 +1,15 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+const firstName: string = "Carlos";
+const lastName: string=  "Stevenson";
+const thisYear:number = 1965;
+const birthYear: number =  1947;
+
+// The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 
 // Add your code right below, good luck!
-
-
-
-
+const fullName: string = `${firstName} ${lastName}`;
+const age: number = thisYear - birthYear;
+const greeting: string = `"Hello! My name is " + ${fullName} and I am ${age} years old.`
 
 // Do not change this
 module.exports = {
