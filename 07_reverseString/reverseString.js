@@ -2,11 +2,11 @@ const reverseString = function(args) {
     if(typeof args !== "string" ){
         return
     }
-    let reverseStringString = "";
-    for(let i = args.length-1 ; i = 0 ; i--) {
-        reverseStringString += args[i];
+    let reverseString = "";
+    for(let i = args.length-1 ; i > -1 ; i--) {
+        reverseString += args[i];
     }
-    return reverseStringString;
+    return reverseString;
 };
 
 // Do not edit below this line
