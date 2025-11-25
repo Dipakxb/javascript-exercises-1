@@ -1,5 +1,4 @@
 function camelize(str) {
-    debugger;
     return str
         .split("-")
         .map(
@@ -8,6 +7,6 @@ function camelize(str) {
         .join("")
 }
 
-console.log(camelize("background-color") == 'backgroundColor');
-console.log(camelize("list-style-image") == 'listStyleImage');
-console.log(camelize("-webkit-transition") == 'WebkitTransition');
+camelize("background-color") == 'backgroundColor';
+camelize("list-style-image") == 'listStyleImage';
+camelize("-webkit-transition") == 'WebkitTransition';
